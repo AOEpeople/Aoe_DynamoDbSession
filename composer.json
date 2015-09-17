@@ -1,0 +1,14 @@
+{
+    "name": "aoepeople/aoe_dynamodbsession",
+    "description": "AWS DynamoDB Session Handler for Magento",
+    "authors": [
+        {
+            "name": "Fabrizio Branca",
+            "email": "firstname.lastname@aoe.com"
+        }
+    ],
+    "type": "magento-module",
+    "require": {
+        "mage/awssdk": "*"
+    }
+}

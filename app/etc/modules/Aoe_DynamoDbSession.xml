@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Aoe_DynamoDbSession>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_AwsSdk />
+            </depends>
+        </Aoe_DynamoDbSession>
+    </modules>
+</config>

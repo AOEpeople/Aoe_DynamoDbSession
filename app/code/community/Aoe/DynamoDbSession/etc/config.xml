@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Aoe_DynamoDbSession>
+            <version>1.0.0</version>
+        </Aoe_DynamoDbSession>
+    </modules>
+    <global>
+        <models>
+            <core_mysql4>
+                <rewrite>
+                    <session>Aoe_DynamoDbSession_Model_Session</session>
+                </rewrite>
+            </core_mysql4>
+        </models>
+    </global>
+</config>
